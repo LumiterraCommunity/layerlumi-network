@@ -1,0 +1,49 @@
+{
+  "l1Network": {
+    "blockTime": 10,
+    "chainID": 42161,
+    "explorerUrl": "",
+    "isCustom": true,
+    "name": "arbitrum",
+    "partnerChainIDs": [
+      94168
+    ],
+    "isArbitrum": false
+  },
+  "l2Network": {
+    "chainID": 94168,
+    "confirmPeriodBlocks": 44000,
+    "ethBridge": {
+      "bridge": "0x77c546E587C98249346927DAadbB871111b04c31",
+      "inbox": "0x7F87Ff008A2ed2d910975EA7E6B447D6b24D0353",
+      "outbox": "0x7F38d62116BCF081C0FAA7C0bfe8CddE4029FCb3",
+      "rollup": "0x70aa42dA4dA98bAC51CF37EC1934c993BCd339EC",
+      "sequencerInbox": "0x472b72925962fEDcf8E373770A3a08E3F66C7dE1"
+    },
+    "explorerUrl": "https://scan.layerlumi.com",
+    "isArbitrum": true,
+    "isCustom": true,
+    "name": "LayerLumi",
+    "partnerChainID": 42161,
+    "retryableLifetimeSeconds": 604800,
+    "nitroGenesisBlock": 0,
+    "nitroGenesisL1Block": 0,
+    "depositTimeout": 900000,
+    "tokenBridge": {
+      "l1CustomGateway": "0x1cFbb9dF26fd66C8efeB13D287340EA384cD8D0B",
+      "l1ERC20Gateway": "0x8eB48b6A5C76a1d2cB556aaDa0c78D6fc8Bd4889",
+      "l1GatewayRouter": "0x3fcc6804eea0eD91330c15515cBdadB5eFd094A1",
+      "l1MultiCall": "0x90B02D9F861017844F30dFbdF725b6aa84E63822",
+      "l1ProxyAdmin": "0x420936fb157218740b17443EA1f4070a7C410448",
+      "l1Weth": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "l1WethGateway": "0x15Cc61D4AE799ee73AE42628914A5c9e5f4F16a8",
+      "l2CustomGateway": "0xAB56e705D590850e46b1ECccDCbb31f854300986",
+      "l2ERC20Gateway": "0x49855685AE37DF6Fb42E84bDc159e079f1CA4546",
+      "l2GatewayRouter": "0x2F2E9137A01Cd54B1240DbF7d9D076e16cF08F35",
+      "l2Multicall": "0x883Af875e072d3ea152722D5dB7092e33dd22E44",
+      "l2ProxyAdmin": "0x1CF8337E4a5099b5fb84740DAe30509d60A70e42",
+      "l2Weth": "0xe40Cf3B09Ea4D780f5606c50e0B9C481f89a7403",
+      "l2WethGateway": "0xD1c33E6112119f3f00866c174B9556005BbBfBda"
+    }
+  }
+}
