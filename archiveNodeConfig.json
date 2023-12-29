@@ -1,0 +1,71 @@
+{
+    "chain": {
+        "info-json": "[{\"chain-id\":94168,\"parent-chain-id\":42161,\"chain-name\":\"Lumi\",\"chain-config\":{\"chainId\":94168,\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":10,\"InitialChainOwner\":\"0x0f369f61983cb0c4a432E4A81aAAA24F2D48Be45\",\"GenesisBlockNum\":0}},\"rollup\":{\"bridge\":\"0x77c546E587C98249346927DAadbB871111b04c31\",\"inbox\":\"0x7F87Ff008A2ed2d910975EA7E6B447D6b24D0353\",\"sequencer-inbox\":\"0x472b72925962fEDcf8E373770A3a08E3F66C7dE1\",\"rollup\":\"0x70aa42dA4dA98bAC51CF37EC1934c993BCd339EC\",\"validator-utils\":\"0x6c21303F5986180B1394d2C89f3e883890E2867b\",\"validator-wallet-creator\":\"0x2b0E04Dc90e3fA58165CB41E2834B44A56E766aF\",\"deployed-at\":153730877}}]",
+        "name": "Lumi"
+    },
+    "parent-chain": {
+        "connection": {
+            "url": "https://arb-mainnet.g.alchemy.com/v2/LhWLKwBByY8nLuq57UIj6t2OPCSAdwUH"
+        }
+    },
+    "http": {
+        "addr": "0.0.0.0",
+        "port": 8449,
+        "vhosts": "*",
+        "corsdomain": "*",
+        "api": [
+            "eth",
+            "net",
+            "web3",
+            "arb",
+            "debug"
+        ]
+    },
+    "ws": {
+        "addr": "0.0.0.0",
+        "port": 8548,
+        "api": [
+            "eth",
+            "net",
+            "web3",
+            "arb",
+            "debug"
+        ]
+    },
+    "node": {
+        "forwarding-target": "https://node1.layerlumi.com",
+        "caching": {
+            "archive": true
+        },
+        "staker": {
+            "enable": false
+        },
+        "sequencer": {
+            "enable": false
+        },
+        "delayed-sequencer": {
+            "enable": false
+        },
+        "feed": {
+            "output": {
+                "enable": true
+            },
+            "input": {
+                "url": "wss://node1-feed.layerlumi.com"
+            }
+        },
+        "inbox-reader": {
+            "max-blocks-to-read": 100000,
+            "default-blocks-to-read": 100000
+        },
+        "data-availability": {
+            "enable": true,
+            "sequencer-inbox-address": "0x472b72925962fEDcf8E373770A3a08E3F66C7dE1",
+            "parent-chain-node-url": "https://arb-mainnet.g.alchemy.com/v2/Dfjea3ST0AoMWhSwvZjAVuOG4ccDv7wW",
+            "rest-aggregator": {
+                "enable": true,
+                "urls": "https://das1rest.layerlumi.com"
+            }
+        }
+    }
+}
