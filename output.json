@@ -1,0 +1,46 @@
+{
+  "chainInfo": {
+    "minL2BaseFee": 10000000,
+    "networkFeeReceiver": "0x0f369f61983cb0c4a432E4A81aAAA24F2D48Be45",
+    "infrastructureFeeCollector": "0x0f369f61983cb0c4a432E4A81aAAA24F2D48Be45",
+    "batchPoster": "0x7288CF5803030Cd456a7cFA9bb23aE136DE46df5",
+    "staker": "0x4eC03f3feFffe559BB3e0f8fD7b68caB4B526Ebc",
+    "chainOwner": "0x0f369f61983cb0c4a432E4A81aAAA24F2D48Be45",
+    "chainName": "LayerLumi",
+    "chainId": 94168,
+    "parentChainId": 42161,
+    "rpcUrl": "https://node1.layerlumi.com",
+    "explorerUrl": "https://scan.layerlumi.com",
+    "nativeToken": "0x0000000000000000000000000000000000000000"
+  },
+  "coreContracts": {
+    "rollup": "0x70aa42dA4dA98bAC51CF37EC1934c993BCd339EC",
+    "inbox": "0x7F87Ff008A2ed2d910975EA7E6B447D6b24D0353",
+    "outbox": "0x7F38d62116BCF081C0FAA7C0bfe8CddE4029FCb3",
+    "adminProxy": "0x420936fb157218740b17443EA1f4070a7C410448",
+    "sequencerInbox": "0x472b72925962fEDcf8E373770A3a08E3F66C7dE1",
+    "bridge": "0x77c546E587C98249346927DAadbB871111b04c31",
+    "utils": "0x6c21303F5986180B1394d2C89f3e883890E2867b",
+    "validatorWalletCreator": "0x2b0E04Dc90e3fA58165CB41E2834B44A56E766aF"
+  },
+  "tokenBridgeContracts": {
+    "l2Contracts": {
+      "customGateway": "0x1cFbb9dF26fd66C8efeB13D287340EA384cD8D0B",
+      "multicall": "0x90B02D9F861017844F30dFbdF725b6aa84E63822",
+      "proxyAdmin": "0x420936fb157218740b17443EA1f4070a7C410448",
+      "router": "0x3fcc6804eea0eD91330c15515cBdadB5eFd094A1",
+      "standardGateway": "0x8eB48b6A5C76a1d2cB556aaDa0c78D6fc8Bd4889",
+      "weth": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+      "wethGateway": "0x15Cc61D4AE799ee73AE42628914A5c9e5f4F16a8"
+    },
+    "l3Contracts": {
+      "customGateway": "0xAB56e705D590850e46b1ECccDCbb31f854300986",
+      "multicall": "0x883Af875e072d3ea152722D5dB7092e33dd22E44",
+      "proxyAdmin": "0x1CF8337E4a5099b5fb84740DAe30509d60A70e42",
+      "router": "0x2F2E9137A01Cd54B1240DbF7d9D076e16cF08F35",
+      "standardGateway": "0x49855685AE37DF6Fb42E84bDc159e079f1CA4546",
+      "weth": "0xe40Cf3B09Ea4D780f5606c50e0B9C481f89a7403",
+      "wethGateway": "0xD1c33E6112119f3f00866c174B9556005BbBfBda"
+    }
+  }
+}
