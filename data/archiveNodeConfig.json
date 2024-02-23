@@ -5,7 +5,7 @@
     },
     "parent-chain": {
         "connection": {
-            "url": "https://arb-mainnet.g.alchemy.com/v2/LhWLKwBByY8nLuq57UIj6t2OPCSAdwUH"
+            "url": "$arbitrum-one-rpc"
         }
     },
     "http": {
@@ -61,7 +61,7 @@
         "data-availability": {
             "enable": true,
             "sequencer-inbox-address": "0x472b72925962fEDcf8E373770A3a08E3F66C7dE1",
-            "parent-chain-node-url": "https://arb-mainnet.g.alchemy.com/v2/Dfjea3ST0AoMWhSwvZjAVuOG4ccDv7wW",
+            "parent-chain-node-url": "arbitrum-one-rpc",
             "rest-aggregator": {
                 "enable": true,
                 "urls": "https://das1rest.layerlumi.com"

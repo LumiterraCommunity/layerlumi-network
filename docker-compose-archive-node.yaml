@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nitro:
+    image: ghcr.io/lumiterracommunity/layerlumi-network:3c1661838cc466f8f8762d6d9370dc3a2c7d96d0
+    ports:
+      - "0.0.0.0:8449:8449"
+      - "0.0.0.0:8548:8548"
+    volumes:
+      - "./data/:/home/user/.arbitrum"
+    command: --conf.file /home/user/.arbitrum/archiveNodeConfig.json
